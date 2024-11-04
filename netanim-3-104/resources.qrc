@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>animator_play.svg</file>
+        <file>animator_pause.svg</file>
+        <file>animator_zoomin.svg</file>
+        <file>animator_zoomout.svg</file>
+        <file>animator_fileopen.svg</file>
+        <file>animator_nodeid.svg</file>
+        <file>animator_wirelesscircles.svg</file>
+        <file>animator_grid.svg</file>
+        <file>animator_showpackets.svg</file>
+        <file>animator_reload.svg</file>
+        <file>animator_packetstats.svg</file>
+        <file>animator_step.svg</file>
+        <file>animator_mouseposition.png</file>
+    </qresource>
+</RCC>

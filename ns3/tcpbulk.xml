@@ -1,0 +1,59 @@
+<anim ver="netanim-3.104">
+<information><!-- 
+    Description of attributes:
+    =========================
+    anim
+    * ver = Current version
+    topology
+    * minX = minimum X coordinate of the canvas
+    * minY = minimum Y coordinate of the canvas
+    * maxX = maximum X coordinate of the canvas
+    * maxY = maximum Y coordinate of the canvas
+    node
+    * id = Node Id
+    * locX = X coordinate
+    * locY = Y coordinate
+    * r = Red component
+    * g = Green component
+    * b = Blue component
+    link
+    * fromId = From Node Id
+    * toId   = To Node Id
+    * fd = From Node description (for IP Address)
+    * td = To Node description (for IP Address)
+    * ld = Link description (for Bandwidth, delay etc)
+    linkupdate
+    * t = Simulation time
+    * ld = Link description (for Bandwidth, delay etc)
+    nodeupdate
+    * t = Simulation time
+    * descr = Node description
+    * r = Red component
+    * g = Green component
+    * b = Blue component
+    * visible = Node visibility
+    * rc = Residual energy (between 0 and 1)
+    p
+    * fId = From Node Id
+    * fbTx = First bit transmit time
+    * lbTx = Last bit transmit time
+    * tId = To Node Id
+    * fbRx = First bit Rx Time
+    * lbRx = Last bit Rx
+    * meta-info = Packet meta data
+    wp
+    * fId = From Node Id
+    * fbTx = First bit transmit time
+    * lbTx = Last bit transmit time
+    * range = Reception range
+    * tId = To Node Id
+    * fbRx = First bit Rx time
+    * meta-info = Packet meta data
+    * lbRx = Last bit Rx time-->
+    </information>
+<topology minX = "-2" minY = "-2" maxX = "2.88596" maxY = "4.88499">
+<node id = "0" descr="" locX="0.713127" locY="3.96522" r="255"  g="0"  b="0" />
+<node id = "1" descr="" locX="2.88596" locY="4.88499" r="255"  g="0"  b="0" />
+<link fromId="0" toId="1"  fd="10.1.1.1~00:00:00:00:00:01" td="10.1.1.2~00:00:00:00:00:02" ld="" />
+<link fromId="0" toId="1"  fd="10.1.2.1~00:00:00:00:00:03" td="10.1.2.2~00:00:00:00:00:04" ld="" />
+</topology>
